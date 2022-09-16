@@ -773,6 +773,9 @@ a:hover {
   }
 }
 @media (max-width: 400px){
+  .gengar{
+    left: 47%;
+  }
   .email-footer{
     left: 10%;
     font-size: 1.2rem;
