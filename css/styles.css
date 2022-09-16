@@ -334,6 +334,16 @@ a:hover {
   -moz-transition: all 0.3s;
   transition: all 0.4s;
 }
+  .project-images-box {
+    padding: 0.5rem;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0px;
+  }
 .imagens-projetos:hover {
   width: 17rem;
   height: 12rem;
@@ -345,12 +355,11 @@ a:hover {
 .project-images {
   width: 100%;
   position: absolute;
-  top: 43%;
+  top: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  border: 1px solid #fff;
 }
 .text-projects {
   position: absolute;
@@ -360,7 +369,7 @@ a:hover {
   color: #fff;
   opacity: 85%;
   font-size: 1.5rem;
-  left: 1%;
+  left: -3%;
 }
 #textProject2 {
   position: absolute;
@@ -370,7 +379,7 @@ a:hover {
   color: #fff;
   opacity: 85%;
   font-size: 1.5rem;
-  left: 20%;
+  left: 16%;
 }
 #textProject3 {
   position: absolute;
@@ -390,7 +399,7 @@ a:hover {
   color: #fff;
   opacity: 85%;
   font-size: 1.5rem;
-  left: 48%;
+  left: 55%;
 }
 #textProject5 {
   position: absolute;
@@ -400,7 +409,7 @@ a:hover {
   color: #fff;
   opacity: 85%;
   font-size: 1.5rem;
-  left: 70%;
+  left: 75%;
 }
 .footer {
   position: relative;
@@ -491,6 +500,9 @@ a:hover {
   top: 10%;
   width: 5rem;
   animation: cor 8s infinite;
+}
+.texto-mobile{
+    display: none;
 }
 @media (max-width: 900px) {
   body {
@@ -750,5 +762,12 @@ a:hover {
     left: 2%;
     top: 40%;
     width: 3.5rem;
+  }
+  .texto-mobile{
+    position: absolute;
+    color: #fff;
+    top: 92%;
+    left: 13%;
+    display: block;
   }
 }
